@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DEEPGRAM_API_KEY = os.getenv('DEEPGRAM_API_KEY')
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+OPENAI_API_KEY = os.getenv('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')
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 # Initialize clients
